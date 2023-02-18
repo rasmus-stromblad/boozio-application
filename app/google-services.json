@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "67174140804",
+    "project_id": "my-drink-4b78b",
+    "storage_bucket": "my-drink-4b78b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:67174140804:android:565ea5919a092e5923abd1",
+        "android_client_info": {
+          "package_name": "com.example.boozio"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "67174140804-k71coagqh5q03nmfiqve71tdj5mmr2lt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBQGk0Xuv3wp7LbkdIOCaJ8dt-zhpuhsqM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "67174140804-k71coagqh5q03nmfiqve71tdj5mmr2lt.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:67174140804:android:711f535e42c6103223abd1",
+        "android_client_info": {
+          "package_name": "com.example.mydrink_firebase_v1"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "67174140804-k71coagqh5q03nmfiqve71tdj5mmr2lt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBQGk0Xuv3wp7LbkdIOCaJ8dt-zhpuhsqM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "67174140804-k71coagqh5q03nmfiqve71tdj5mmr2lt.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

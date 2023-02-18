@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Boozio</string>
+
+    <string name="selection_title_1">Choose Your</string>
+    <string name="selection_title_2">Ingredients</string>
+    <string name="drinks_found">%1$d drinks found</string>
+
+    <string name="spirits">SPIRITS</string>
+    <string name="soda">SODA</string>
+    <string name="juice">JUICE</string>
+    <string name="fruits">FRUITS, HERBS, SPICES</string>
+    <string name="syrups">SYRUPS</string>
+
+    <string name="speak_navigation">Navigation</string>
+    <string name="speak_logo">Logo</string>
+    <string name="speak_ingredient_type">Ingredient type</string>
+    <string name="speak_recipe_image">Recipe image</string>
+
+    <string name="ingredient_name_placeholder">Ingredient name</string>
+    <string name="ingredient_amount_placeholder">2 dl</string>
+
+    <string name="recipe_name_placeholder">Recipe name</string>
+</resources>
