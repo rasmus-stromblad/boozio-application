@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/constraintLayout2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:textAlignment="center"
+    tools:context=".SelectionFragment">
+
+    <ScrollView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/selectionTitleTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="55dp"
+                android:text="@string/selection_title_1"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/selectionTitleTextView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:text="@string/selection_title_2"
+                android:textColor="@color/white"
+                android:textSize="34sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/selectionTitleTextView" />
+
+            <android.widget.Button
+                android:id="@+id/spiritsSelectorButton"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="64dp"
+                android:layout_marginEnd="16dp"
+                android:background="@drawable/button_background_spirits"
+                android:onClick="showIngredients"
+                android:paddingStart="75dp"
+                android:paddingEnd="75dp"
+                android:stateListAnimator="@null"
+                android:text="@string/spirits"
+                android:textAlignment="viewStart"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/ingredientsSelectedTextView"
+                tools:ignore="TextContrastCheck" />
+
+            <android.widget.Button
+                android:id="@+id/sodaSelectorButton"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="12dp"
+                android:layout_marginEnd="16dp"
+                android:background="@drawable/button_background_soda"
+                android:onClick="showIngredients"
+                android:paddingStart="75dp"
+                android:paddingEnd="75dp"
+                android:stateListAnimator="@null"
+                android:text="@string/soda"
+                android:textAlignment="viewStart"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="1.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/spiritsSelectorButton" />
+
+            <android.widget.Button
+                android:id="@+id/juiceSelectorButton"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="12dp"
+                android:layout_marginEnd="16dp"
+                android:background="@drawable/button_background_juice"
+                android:onClick="showIngredients"
+                android:paddingStart="75dp"
+                android:paddingEnd="75dp"
+                android:stateListAnimator="@null"
+                android:text="@string/juice"
+                android:textAlignment="viewStart"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/sodaSelectorButton"
+                tools:ignore="TextContrastCheck" />
+
+            <android.widget.Button
+                android:id="@+id/fruitsSelectorButton"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="12dp"
+                android:layout_marginEnd="16dp"
+                android:background="@drawable/button_background_fruits"
+                android:onClick="showIngredients"
+                android:paddingStart="75dp"
+                android:paddingEnd="75dp"
+                android:stateListAnimator="@null"
+                android:text="@string/fruits"
+                android:textAlignment="viewStart"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/juiceSelectorButton" />
+
+            <android.widget.Button
+                android:id="@+id/syrupsSelectorButton"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="12dp"
+                android:layout_marginEnd="16dp"
+                android:layout_marginBottom="60dp"
+                android:background="@drawable/button_background_syrups"
+                android:onClick="showIngredients"
+                android:paddingStart="75dp"
+                android:paddingEnd="75dp"
+                android:stateListAnimator="@null"
+                android:text="@string/syrups"
+                android:textAlignment="viewStart"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/fruitsSelectorButton" />
+
+            <TextView
+                android:id="@+id/ingredientsSelectedTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="7dp"
+                android:text="@string/drinks_found"
+                android:textColor="#7BDDBF"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/selectionTitleTextView2"
+                tools:ignore="TextContrastCheck" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
